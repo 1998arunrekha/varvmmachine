@@ -1,0 +1,6 @@
+resourcgroupename="rg022"
+location="east us"
+virtualmachinename="myvm01"
+ventname="myterraformnetwork"
+subnetname="myterraformsubnet"
+networkinterface="mynsg"
