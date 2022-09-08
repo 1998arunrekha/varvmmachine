@@ -1,4 +1,4 @@
-resourcgroupename="rg022"
+resourcgroupename="resourcgroupename"
 location="east us"
 virtualmachinename="myvm01"
 ventname="myterraformnetwork"
