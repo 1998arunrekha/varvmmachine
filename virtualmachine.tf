@@ -3,7 +3,7 @@ resource "azurerm_windows_virtual_machine" "myvm01" {
   resource_group_name = azurerm_resource_group.myterraformgroup.name
   location            = azurerm_resource_group.myterraformgroup.location
   size                = "Standard_F2"
-  admin_username      = "admin"
+  admin_username      = "adm-aruna"
   admin_password      = "Aruna@123456"
   network_interface_ids = [
     azurerm_network_interface.myterraformnic.id,
