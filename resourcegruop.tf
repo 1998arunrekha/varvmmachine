@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "myterraformgroup" {
-  name     = var.resourcegroupename
+  name     = var.resourceGroupName
   location = var.location
 }
